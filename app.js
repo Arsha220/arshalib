@@ -1,5 +1,5 @@
 const express=require("express");
-const port=process.env.port || 5000;
+const port=process.env.PORT || 5000;
 
 const app=new express();
 const nav=[
@@ -52,5 +52,5 @@ app.get('/',function(req,res){
 });
 
 app.listen(port,()=>{
-    console.log("Serveris ready at "+port)
+    console.log("Serveris ready at 5000")
 });

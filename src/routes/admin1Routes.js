@@ -3,7 +3,7 @@ const adminRouter1=express.Router();
 
 function router(nav){
     adminRouter1.get('/',function(req,res){
-        res.render('addAuthor',{
+        res.render('addauthor',{
             nav,
             title:'Library'
         });
